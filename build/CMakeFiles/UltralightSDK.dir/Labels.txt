@@ -1,0 +1,13 @@
+# Target labels
+ UltralightSDK
+# Source files and their labels
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/UltralightSDK
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/6200a88e4d85fff1b4535058e37971d0/UltralightSDK.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/0ea230c1fa6b80a04a3c1fc8a5cf4e1e/UltralightSDK-complete.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/e7d694d472a29505ad3eb7b2514afd10/UltralightSDK-build.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/e7d694d472a29505ad3eb7b2514afd10/UltralightSDK-configure.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/e7d694d472a29505ad3eb7b2514afd10/UltralightSDK-download.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/e7d694d472a29505ad3eb7b2514afd10/UltralightSDK-install.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/e7d694d472a29505ad3eb7b2514afd10/UltralightSDK-mkdir.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/e7d694d472a29505ad3eb7b2514afd10/UltralightSDK-patch.rule
+C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/e7d694d472a29505ad3eb7b2514afd10/UltralightSDK-update.rule

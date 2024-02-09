@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\e7d694d472a29505ad3eb7b2514afd10\UltralightSDK-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\e7d694d472a29505ad3eb7b2514afd10\UltralightSDK-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\e7d694d472a29505ad3eb7b2514afd10\UltralightSDK-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\e7d694d472a29505ad3eb7b2514afd10\UltralightSDK-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\e7d694d472a29505ad3eb7b2514afd10\UltralightSDK-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\e7d694d472a29505ad3eb7b2514afd10\UltralightSDK-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\e7d694d472a29505ad3eb7b2514afd10\UltralightSDK-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\0ea230c1fa6b80a04a3c1fc8a5cf4e1e\UltralightSDK-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\6200a88e4d85fff1b4535058e37971d0\UltralightSDK.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mattm\Documents\Draft_App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\mattm\Documents\Draft_App\build\CMakeFiles\UltralightSDK" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8E1D9E0F-45CC-327E-B208-8C02D5B5F377}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

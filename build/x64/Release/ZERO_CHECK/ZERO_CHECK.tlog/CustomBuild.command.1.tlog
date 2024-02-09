@@ -1,0 +1,10 @@
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\6200A88E4D85FFF1B4535058E37971D0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mattm/Documents/Draft_App -BC:/Users/mattm/Documents/Draft_App/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mattm/Documents/Draft_App/build/MyApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

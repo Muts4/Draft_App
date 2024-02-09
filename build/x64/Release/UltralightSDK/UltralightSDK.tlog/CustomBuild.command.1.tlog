@@ -1,0 +1,136 @@
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\E7D694D472A29505AD3EB7B2514AFD10\ULTRALIGHTSDK-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/tmp/UltralightSDK-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\E7D694D472A29505AD3EB7B2514AFD10\ULTRALIGHTSDK-DOWNLOAD.RULE
+setlocal
+cd C:\Users\mattm\Documents\Draft_App\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/download-UltralightSDK.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/verify-UltralightSDK.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/extract-UltralightSDK.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\E7D694D472A29505AD3EB7B2514AFD10\ULTRALIGHTSDK-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\E7D694D472A29505AD3EB7B2514AFD10\ULTRALIGHTSDK-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\E7D694D472A29505AD3EB7B2514AFD10\ULTRALIGHTSDK-CONFIGURE.RULE
+setlocal
+cd C:\Users\mattm\Documents\Draft_App\build\SDK
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\E7D694D472A29505AD3EB7B2514AFD10\ULTRALIGHTSDK-BUILD.RULE
+setlocal
+cd C:\Users\mattm\Documents\Draft_App\build\SDK
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\E7D694D472A29505AD3EB7B2514AFD10\ULTRALIGHTSDK-INSTALL.RULE
+setlocal
+cd C:\Users\mattm\Documents\Draft_App\build\SDK
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\0EA230C1FA6B80A04A3C1FC8A5CF4E1E\ULTRALIGHTSDK-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/Release/UltralightSDK-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/mattm/Documents/Draft_App/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\BUILD\CMAKEFILES\6200A88E4D85FFF1B4535058E37971D0\ULTRALIGHTSDK.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATTM\DOCUMENTS\DRAFT_APP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mattm/Documents/Draft_App -BC:/Users/mattm/Documents/Draft_App/build --check-stamp-file C:/Users/mattm/Documents/Draft_App/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
