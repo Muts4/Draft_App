@@ -1,5 +1,8 @@
 #pragma once
 #include <AppCore/AppCore.h>
+#include <AppCore/JSHelpers.h>
+#include <AppCore/Window.h>
+#include <AppCore/Overlay.h>
 
 using namespace ultralight;
 
@@ -42,6 +45,14 @@ public:
 
   virtual void OnChangeTitle(ultralight::View* caller,
     const String& title) override;
+
+  JSValue GetMessage(const JSObject& thisObject, const JSArgs& args) {
+    ///
+    /// Return our message to JavaScript as a JSValue.
+    ///
+    return JSValue("Hello from C++!<br/>Ultralight rocks!");
+  }
+
 
 protected:
   RefPtr<App> app_;

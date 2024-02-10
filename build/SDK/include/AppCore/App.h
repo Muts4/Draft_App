@@ -50,7 +50,7 @@ struct AExport Settings {
   /// This is used to generate a unique path to store local application data
   /// on the user's machine.
   ///
-  String app_name = "MyApp";
+  String app_name = "Draft Buddy";
 
   ///
   /// The root file path for our file system. You should set this to the

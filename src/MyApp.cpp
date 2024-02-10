@@ -1,4 +1,7 @@
 #include "MyApp.h"
+#include <AppCore/JSHelpers.h>
+#include <AppCore/Window.h>
+#include <AppCore/Overlay.h>
 
 #define WINDOW_WIDTH  1200
 #define WINDOW_HEIGHT 700
@@ -103,6 +106,13 @@ void MyApp::OnDOMReady(ultralight::View* caller,
   ///
   /// This is the best time to setup any JavaScript bindings.
   ///
+  // Include any C/JS binding here. Define these binding functions in header files and call the class/functions here.
+  RefPtr<JSContext> context = caller->LockJSContext();
+  SetJSContext(context->ctx());
+  
+  JSObject global = JSGlobalObject();
+
+  global["GetMessage"] = BindJSCallbackWithRetval(&MyApp::GetMessage);
 }
 
 void MyApp::OnChangeCursor(ultralight::View* caller,
